@@ -1,13 +1,13 @@
 apply plugin: "java"
 apply from : 'publish.gradle'
 
-sourceCompatibility = 1.6
+sourceCompatibility = 1.8
 sourceSets.main.java.srcDirs = [ "src/" ]
 
 ext {
-    gdxVersion = '1.7.1'
+    gdxVersion = '1.9.6'
+    ashleyVersion = '1.7.0'
     box2dlightsVersion = '1.4'
-    ashleyVersion = '1.6.1-SNAPSHOT'
 }
 
 dependencies {

@@ -6,7 +6,7 @@ apply plugin: 'signing'
 
 group = 'com.underwaterapps.overlap2druntime'
 
-version = '0.1.2'
+version = '0.1.4'
 ext.packaging = 'jar'
 
 def isDevBuild
