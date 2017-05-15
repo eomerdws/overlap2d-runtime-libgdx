@@ -18,11 +18,13 @@
 
 package com.overlap2d.extensions.spine;
 
-import box2dLight.RayHandler;
-
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.gdx.physics.box2d.World;
-import com.esotericsoftware.spine.*;
+import com.esotericsoftware.spine.AnimationState;
+import com.esotericsoftware.spine.AnimationStateData;
+import com.esotericsoftware.spine.BoneData;
+import com.esotericsoftware.spine.Skeleton;
+import com.esotericsoftware.spine.SkeletonJson;
 import com.uwsoft.editor.renderer.components.DimensionsComponent;
 import com.uwsoft.editor.renderer.components.SpineDataComponent;
 import com.uwsoft.editor.renderer.data.MainItemVO;
@@ -32,6 +34,8 @@ import com.uwsoft.editor.renderer.factory.EntityFactory;
 import com.uwsoft.editor.renderer.factory.component.ComponentFactory;
 import com.uwsoft.editor.renderer.resources.IResourceRetriever;
 import com.uwsoft.editor.renderer.utils.ComponentRetriever;
+
+import box2dLight.RayHandler;
 
 /**
  * Created by azakhary on 5/22/2015.
